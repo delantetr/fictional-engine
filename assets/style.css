@@ -1,26 +1,28 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
 }
 
-header, footer {
+header {
     background: navy;
     color: silver;
     width: 100%;
 }
 
 header {
-    position: fixed;
+    /* position: fixed; */
     right: 0%;
     top: 0%;
 }
 
 h1 {
     text-align: left;
-    margin-left: 10px;
+
 }
 
 h2, h4 {
     text-align: center;
+    margin-bottom: 10px;
     
 }
 
@@ -46,11 +48,21 @@ a:hover {
 }
 
 .section1 {
-    background-color: gray; 
+    background-color: gray;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+    
+}
+
+.section2 {
+    background-color: navy;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: silver;
+    border-bottom: solid 5px black;
 }
+
 .small-proj-cont {
     display:flex;
     flex-wrap: wrap;
@@ -58,41 +70,32 @@ a:hover {
 }
 
 .large-proj {
-    border: solid 5px red;
+    border: solid 5px black;
     width: 60vw;
     height: 30vh;
 }
 
 .small-proj {
-    border: solid 5px red;
+    border: solid 5px black;
     width: 35vw;
     height:25vh;
 }
 
-#about-me {
-    margin-top: 15%;
-}
-
-.section2 {
-    background-color: navy;
-    color: silver; 
-    height: 600px;
-}
 img {
     width: 200px;
     height: 250px;
-    margin-left: 25px;
 }
 
-p {
-   margin-right: 25px; 
+p { 
+   margin-right: 45%; 
    position: relative;
-   bottom: 250px;
-   left: 250px;
+   bottom: 255px;
+   left: 210px;
 }
 
 
 #contact-section {
+    background-color: gray;
     text-align: center;
     position: relative;
     right: 0%;
