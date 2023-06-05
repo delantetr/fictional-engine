@@ -6,14 +6,7 @@
 header {
     background: navy;
     color: silver;
-    width: 100%;
-}
-
-header {
-    /* position: fixed; */
-    right: 0%;
-    top: 0%;
-}
+    width: 100%;}
 
 h1 {
     text-align: left;
@@ -51,7 +44,6 @@ a:hover {
     background-color: gray;
     border-top: solid 5px black;
     border-bottom: solid 5px black;
-    
 }
 
 .section2 {
@@ -81,9 +73,20 @@ a:hover {
     height:25vh;
 }
 
-img {
+#about-me img {
     width: 200px;
     height: 250px;
+}
+.photo {
+    object-fit: cover;
+    width: 60vw;
+    height: 30vh;
+}
+
+.photo2 {
+    object-fit: cover;
+    width: 35vw;
+    height: 25vh;
 }
 
 p { 
